@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "dquinn10" {
+resource "aws_s3_bucket" "this" {
   count = var.create_bucket ? 1 : 0
 
   bucket              = var.bucket
